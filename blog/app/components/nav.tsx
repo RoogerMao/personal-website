@@ -8,6 +8,9 @@ const navItems = {
   '/blog': {
     name: 'blog',
   },
+  '/projects': {
+    name: "projects",
+  }
 }
 
 const socials = [
@@ -47,7 +50,7 @@ export function Navbar() {
                 <Link
                   key={path}
                   href={path}
-                  className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1"
+                  className="transition-all hover:text-orange-400 dark:hover:text-orange-400 flex align-middle relative py-1 px-2 m-1"
                 >
                   {name}
                 </Link>
@@ -64,6 +67,7 @@ export function Navbar() {
                   alt = {alt}
                   width = {20}
                   height = {20}
+                  className = "transition-all hover:text-orange-400 dark:hover:color-orange-400"
                 />
               </a>
               ))}
