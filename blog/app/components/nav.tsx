@@ -30,7 +30,7 @@ const socials = [
 
 export function Navbar() {
   return (
-    <aside className="-ml-[8px] mb-16 tracking-tight bg-blue-900 width-max">
+    <aside className="-ml-[8px] mb-16 tracking-tight width-max">
       <div className="lg:sticky lg:top-20">
         <nav
           className="flex flex-row justify-between relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
@@ -50,15 +50,15 @@ export function Navbar() {
             })}
           </div>
             
-          <div className = "flex flex-row pr-10">
+          <div className = "flex flex-row px-2 py-1">
             {socials.map(([link, svg, alt]) => (
               <a key = {link} href = {link} target = "_blank"
                 className = "flex align-middle relative py-1 px-2">
                 <Image
                   src = {svg} 
                   alt = {alt}
-                  width = {30}
-                  height = {30}
+                  width = {20}
+                  height = {20}
                 />
               </a>
               ))}
