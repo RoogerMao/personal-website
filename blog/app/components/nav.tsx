@@ -25,12 +25,17 @@ const socials = [
     "https://github.com/RoogerMao", 
     "/socials/github_icon.svg", 
     "GitHub"
+  ], 
+  [
+    "/january26_resume.pdf",
+    "/socials/resume_icon.svg", 
+    "Resume"
   ]
 ]
 
 export function Navbar() {
   return (
-    <aside className="-ml-[8px] mb-16 tracking-tight width-max">
+    <aside className="-ml-[8px] mb-8 tracking-tight width-max">
       <div className="lg:sticky lg:top-20">
         <nav
           className="flex flex-row justify-between relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
