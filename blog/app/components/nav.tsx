@@ -8,9 +8,9 @@ const navItems = {
   '/blog': {
     name: 'blog',
   },
-  '/projects': {
+  /*'/projects': {
     name: "projects",
-  }
+  }*/ 
 }
 
 const socials = [
