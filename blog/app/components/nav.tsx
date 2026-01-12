@@ -13,17 +13,17 @@ const navItems = {
 const socials = [
   [
     "https://www.linkedin.com/in/roger-mao-24baa0397/",
-    "/public/socials/linkedin_icon.svg", 
+    "/socials/linkedin_icon.svg", 
     "LinkedIn"
   ], 
   [
     "mailto:roger_mao@brown.edu",
-    "/public/socials/email_icon.svg", 
+    "/socials/email_icon.svg", 
     "Email"
   ], 
   [
     "https://github.com/RoogerMao", 
-    "/public/socials/github_icon.svg", 
+    "/socials/github_icon.svg", 
     "GitHub"
   ]
 ]
@@ -57,8 +57,8 @@ export function Navbar() {
                 <Image
                   src = {svg} 
                   alt = {alt}
-                  width = {24}
-                  height = {24}
+                  width = {30}
+                  height = {30}
                 />
               </a>
               ))}
