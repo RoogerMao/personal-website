@@ -1,0 +1,12 @@
+{
+    "experiences" : [{
+        "name" : "Full Stack @ Brown", 
+        "description" : "As a developer at Full Stack @ Brown, I worked with a partner to design a subpage for the yearly issues of A Priori, the Brown Undergraduate Journal of Philosophy. My partner and I created templates and worked with CosmicJS, a headless content management system, to display information about each issue using NextJS's dynamic routing.",
+        "start month" : "09/2025", 
+        "end month" : "present", 
+        "link" : "https://www.fullstackatbrown.com/", 
+        "logo" : "/artifacts/fullstack_logo.png",
+        "frameworks and libraries" : ["React", "NextJS"], 
+        "languages" : ["JavaScript", "TypeScript"]
+    }]
+}
