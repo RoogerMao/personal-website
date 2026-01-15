@@ -18,12 +18,14 @@
 - **Projects**: I might decide to implement a separate subpage for all the
   projects I implement with a custom search feature. I'll do that once I have
   more than 5 projects I want to describe on my website (not including class
-  projects).
+  projects). I'll also add a pinned feature. 
 
 # Current Information
 
-I'll put down Rackette and Game under projects, as well as my experience at
-Full-Stack.
+To-do: 
+- Add contributors to projects
+- Add tags for each language
+- Figure out images for each project 
 
 # Misc. Ideas
 
