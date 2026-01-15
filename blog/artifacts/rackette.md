@@ -1,5 +1,5 @@
 ---
-title: "Rackette"
+title: "Rackette (CS17)"
 start_month: "10"
 start_year: "2025"
 end_month: "11"

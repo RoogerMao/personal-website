@@ -1,8 +1,3 @@
-import fs from 'fs'; 
-import path from 'path'; 
-import matter from 'gray-matter'; 
-
-import { BlogPosts } from 'app/components/posts'
 import { Artifact } from 'app/components/artifact'
 import { getAllArtifactsData } from 'app/lib/artifacts'
 
@@ -13,18 +8,18 @@ export default async function Page() {
   console.log(projects); 
 
   return (
-    <div>
+    <div className = "">
       <section>
         <div className="mb-4">
           <h1 className="text-2xl font-semibold tracking-tighter">
             Roger Mao
           </h1>
-          <p className="text-xl tracking-tighter text-orange-400">
+          <p className="text-xl tracking-tighter text-orange-500">
             APMA-CS @ Brown
           </p>
         </div>
         
-        <p className="mb-4">
+        <p className="transition-all p-1 mb-4 hover:shadow rounded dark:hover:shadow-gray-300/30">
           {`BAIST Spring '26 Technical Reading Program Director.`}
         </p>
       </section>
