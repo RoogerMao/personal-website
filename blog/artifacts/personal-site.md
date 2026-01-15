@@ -9,4 +9,5 @@ logo: "/artifacts/personal-site.svg"
 frameworks: [React, NextJS, gray-matter]
 languages: [JavaScript, TypeScript, Markdown]
 experience: false
+contributors: []
 ---

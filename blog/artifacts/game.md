@@ -9,4 +9,5 @@ logo: "/artifacts/game_logo.svg"
 frameworks:
 languages: [ReasonML/OCaml]
 experience: false
+contributors: [[Tiger Li, https://www.linkedin.com/in/tiger-li1/]]
 ---

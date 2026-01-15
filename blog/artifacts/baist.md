@@ -9,6 +9,7 @@ logo: "/artifacts/baist_logo.png"
 frameworks: []
 languages: []
 experience: true
+contributors:
 ---
 
 As a technical fellow at the Brown AI Safety Team, I attended weekly reading sessions. Each session consisted of reading and discussing papers about
