@@ -14,12 +14,12 @@ export default async function Page() {
           <h1 className="text-2xl font-semibold tracking-tighter">
             Roger Mao
           </h1>
-          <p className="text-xl tracking-tighter text-orange-500">
+          <p className="text-xl tracking-tighter text-orange-500 dark:text-orange-400">
             APMA-CS @ Brown
           </p>
         </div>
-        
-        <p className="transition-all p-1 mb-4 hover:shadow rounded dark:hover:shadow-gray-300/30">
+
+        <p className="transition-all p-1 mb-4 hover:text-orange-500 dark:hover:text-orange-400 hover:shadow hover:shadow-orange-500 dark:hover:shadow-none rounded">
           {`BAIST Spring '26 Technical Reading Program Director.`}
         </p>
       </section>

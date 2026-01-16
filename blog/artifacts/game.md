@@ -5,7 +5,7 @@ start_year: "2025"
 end_month: "12"
 end_year: "2025"
 link:
-logo: "/artifacts/game_logo.svg"
+logo: "/artifacts/game_logo.jpg"
 frameworks:
 languages: [ReasonML/OCaml]
 experience: false

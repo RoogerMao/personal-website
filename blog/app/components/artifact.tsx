@@ -17,7 +17,7 @@ export function Artifact({ id, content, data }: ArtifactProps) {
     ]; 
 
     return (
-        <div className="transition-all hover:shadow dark:hover:shadow-gray-300/30 p-2 cursor-pointer my-2 rounded group"
+        <div className="transition-all hover:shadow hover:shadow-orange-500 dark:hover:shadow-none p-2 cursor-pointer my-2 rounded group"
         onClick={() => setIsExpanded(!isExpanded)}>
             <div className="flex justify-between w-100">
                 <div className="flex flex-row items-start">
