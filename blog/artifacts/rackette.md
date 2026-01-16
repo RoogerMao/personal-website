@@ -6,7 +6,7 @@ end_month: "11"
 end_year: "2025"
 link:
 logo: "/artifacts/rackette_logo.svg"
-frameworks:
+frameworks: []
 languages: [ReasonML/OCaml]
 experience: false
 contributors: [[Eric Kim, https://www.linkedin.com/in/erckimm/]]

@@ -21,13 +21,15 @@ export function Artifact({ id, content, data }: ArtifactProps) {
         onClick={() => setIsExpanded(!isExpanded)}>
             <div className="flex justify-between w-100">
                 <div className="flex flex-row items-start">
+                    {/* Logo */}
                     <Image 
                     src = {data.logo} 
                     alt = {id} width = {30} height = {24}
                     className = "mr-2 object-scale-down rounded"/>
 
-
+                    {/* Main Body */}
                     <div>
+                        {/* Title & Date */}
                         <h2 className = "text-xl group-hover:text-orange-500 dark:group-hover:text-orange-400">{data.title}
                             <span className = "pl-2 italic text-base">
                                 {months[parseInt(data.start_month) - 1]} {data.start_year} – 
@@ -38,14 +40,33 @@ export function Artifact({ id, content, data }: ArtifactProps) {
                             </span>
                         </h2>
 
+                        {/* Description */}
                         {
                             isExpanded && 
-                                <div className="transition-all pr-2 pt-2 pb-2"
-                                dangerouslySetInnerHTML={{ __html: marked(content ? content : "") }} />
-                        } 
+                                <div>
+                                    <div className="transition-all pr-2 pt-2 pb-2"
+                                    dangerouslySetInnerHTML={{ __html: marked(content ? content : "") }} />
+                        
+                            {/* Frameworks, then languages */}
+                            <p className="mt-2">
+                                {
+                                    data.frameworks.map((key: string) => 
+                                    <span className="transition-all outline-1 outline-orange-500 dark:outline-orange-400 w-fit mr-2 py-1 px-2 rounded-full text-orange-500 dark:text-orange-400 hover:font-semibold hover:outline-2">
+                                    {key}</span>)
+                                }
+
+                                {
+                                    data.languages.map((key: string) => 
+                                    <span className="transition-all outline-1 outline-gray-500 dark:outline-gray-400 w-fit mr-2 py-1 px-2 rounded-full text-gray-500 dark:text-gray-400 hover:font-semibold hover:outline-2">
+                                    {key}</span>)
+                                }
+                            </p>
+                            </div>
+                        }
                     </div>
                 </div>
 
+                {/* Link */}
                 {
                     <div>
                         {(data.link != null) && <ExperienceLink url={data.link} />} 

@@ -6,7 +6,7 @@ end_month:
 end_year: "present"
 link: "https://www.fullstackatbrown.com/"
 logo: "/artifacts/fullstack_logo.png"
-frameworks: [React, NextJS]
+frameworks: [React, Next.js]
 languages: [JavaScript, TypeScript]
 experience: true
 contributors: []

@@ -6,7 +6,7 @@ end_month: "12"
 end_year: "2025"
 link:
 logo: "/artifacts/game_logo.jpg"
-frameworks:
+frameworks: []
 languages: [ReasonML/OCaml]
 experience: false
 contributors: [[Tiger Li, https://www.linkedin.com/in/tiger-li1/]]

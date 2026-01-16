@@ -6,7 +6,7 @@ end_month: "1"
 end_year: "2026"
 link:
 logo: "/artifacts/personal-website.jpg"
-frameworks: [React, NextJS, gray-matter]
+frameworks: [React, Next.js, gray-matter]
 languages: [JavaScript, TypeScript, Markdown]
 experience: false
 contributors: []
