@@ -18,14 +18,13 @@
 - **Projects**: I might decide to implement a separate subpage for all the
   projects I implement with a custom search feature. I'll do that once I have
   more than 5 projects I want to describe on my website (not including class
-  projects). I'll also add a pinned feature. 
+  projects). I'll also add a pinned feature.
 
 # Current Information
 
-To-do: 
-- Add contributors to projects
-- Add tags for each language
-- Figure out images for each project 
+- Working on linking to Obsidian Publish site, now
+- Should make a component for displaying information about the notes I publish
+  to my vault once I have at least one note in my vault
 
 # Misc. Ideas
 

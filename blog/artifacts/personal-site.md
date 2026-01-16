@@ -6,8 +6,11 @@ end_month: "1"
 end_year: "2026"
 link:
 logo: "/artifacts/personal-website.jpg"
-frameworks: [React, Next.js, gray-matter]
-languages: [JavaScript, TypeScript, Markdown]
+frameworks: [react, next.js, gray-matter]
+languages: [javascript, typescript, markdown]
 experience: false
 people: []
 ---
+
+Using gray-matter to read information about club experiences and projects
+stored in YAML headers.

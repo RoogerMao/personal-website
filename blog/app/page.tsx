@@ -4,8 +4,6 @@ import { getAllArtifactsData } from 'app/lib/artifacts'
 export default async function Page() {
   // process all the markdown files containing the artifacts
   const { experiences, projects } = getAllArtifactsData();
-  console.log(experiences);
-  console.log(projects); 
 
   return (
     <div className = "">
@@ -54,8 +52,11 @@ export default async function Page() {
 
       <section className = "mb-4">
         <h1 className="text-2xl font-semibold tracking-tighter">
-            Vault
+            Vault 
         </h1>
+        <p className="transition-all p-1 mb-4 hover:text-orange-500 dark:hover:text-orange-400 hover:shadow hover:shadow-orange-500 dark:hover:shadow-none rounded">
+          {`Recent notes from my Obsidian Publish.`}
+        </p>
       </section>
     </div>
   )

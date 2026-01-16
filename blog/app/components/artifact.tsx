@@ -62,7 +62,7 @@ export function Artifact({ id, content, data }: ArtifactProps) {
                                     
                                     {/* Description */}
                                     <div className="transition-all pr-2 pt-2 pb-2"
-                                    dangerouslySetInnerHTML={{ __html: marked(content ? content : "") }} />
+                                    dangerouslySetInnerHTML={{ __html: marked.parse(content ? content : "") }} />
                         
                                 {/* Frameworks, then languages */}
                                 <div className="flex flex-wrap gap-2 my-2 text-base/8">
