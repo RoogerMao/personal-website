@@ -9,5 +9,5 @@ logo: "/artifacts/personal-website.jpg"
 frameworks: [React, Next.js, gray-matter]
 languages: [JavaScript, TypeScript, Markdown]
 experience: false
-contributors: []
+people: []
 ---

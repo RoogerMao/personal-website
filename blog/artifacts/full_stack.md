@@ -9,7 +9,7 @@ logo: "/artifacts/fullstack_logo.png"
 frameworks: [React, Next.js]
 languages: [JavaScript, TypeScript]
 experience: true
-contributors: []
+people: []
 ---
 
 As a developer at Full Stack @ Brown, I worked with a partner to design a
