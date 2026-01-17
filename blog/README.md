@@ -22,7 +22,9 @@
 
 # Current Information
 
-- Working on linking to Obsidian Publish site, now
+- write welcome note
+- set up domain for publish website
+- register nextjs website with brown domain 
 - Should make a component for displaying information about the notes I publish
   to my vault once I have at least one note in my vault
 
