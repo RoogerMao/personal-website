@@ -4,10 +4,7 @@ import { socials } from './socials'
 
 const navItems = {
   '/': {
-    name: 'home',
-  },
-  '/blog': {
-    name: 'vault',
+    name: 'Home',
   },
   /*'/projects': {
     name: "projects",
@@ -34,6 +31,11 @@ export function Navbar() {
                 </Link>
               )
             })}
+
+            <a className="transition-all hover:text-orange-500 dark:hover:text-orange-400 flex align-middle relative py-1 px-2 m-1"
+            href = "https://vault.roger-mao.com/" target="_blank">
+              Vault 
+            </a>
           </div>
             
           <div className = "flex flex-row px-2 py-1">

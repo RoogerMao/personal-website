@@ -1,4 +1,5 @@
 type ArticleProps = {
+    key: any 
     id: string; 
     data?: any; 
 }; 

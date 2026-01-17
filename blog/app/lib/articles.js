@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path'; 
 import matter from 'gray-matter'; 
 
-const artifactsDirectory = path.join(process.cwd(), 'articles'); 
+const articlesDirectory = path.join(process.cwd(), 'articles'); 
 
 function compareArticles(a, b) {
     if (a.data.year > b.data.year) return -1; 
@@ -22,7 +22,7 @@ function compareArticles(a, b) {
 }
 
 export function getAllArticlesData() {
-    const articleNames = fs.readdirSync(artifactsDirectory)
+    const articleNames = fs.readdirSync(articlesDirectory)
       
     const allArticlesData = articleNames.map((articleName) => {
         // remove the ".md"

@@ -5,6 +5,7 @@ import { marked } from 'marked';
 import { ExperienceLink } from 'app/components/link';
 
 type ArtifactProps = {
+    key: any; 
     id: string; 
     content?: string; 
     data?: any; 
