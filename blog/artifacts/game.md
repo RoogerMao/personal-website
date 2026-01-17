@@ -1,5 +1,5 @@
 ---
-title: "Game (CS 17)"
+title: "Game (CS17)"
 start_month: "11"
 start_year: "2025"
 end_month: "12"

@@ -69,7 +69,7 @@ export function Artifact({ id, content, data }: ArtifactProps) {
                                     {
                                         data.frameworks.map((key: string) => 
                                         <span key={key}
-                                        className="transition-all inline-flex text-sm items-center outline-1 outline-orange-500 dark:outline-orange-400 w-fit px-2 rounded-full text-orange-500 dark:text-orange-400 hover:font-semibold hover:outline-2 whitespace-nowrap">
+                                        className="transition-shadow inline-flex text-sm items-center outline-1 outline-orange-500 dark:outline-orange-400 w-fit px-2 rounded-full text-orange-500 dark:text-orange-400 hover:font-semibold hover:outline-2 whitespace-nowrap">
                                         {key}</span>)
                                     }
 
@@ -77,7 +77,7 @@ export function Artifact({ id, content, data }: ArtifactProps) {
                                         data.languages.map((key: string) => 
                                         <span 
                                         key = {key}
-                                        className="transition-all inline-flex items-center text-sm outline-1 outline-gray-600 dark:outline-gray-300 w-fit px-2 rounded-full text-gray-600 dark:text-gray-300 hover:font-semibold hover:outline-2 whitespace-nowrap">
+                                        className="transition-shadow inline-flex items-center text-sm outline-1 outline-gray-600 dark:outline-gray-300 w-fit px-2 rounded-full text-gray-600 dark:text-gray-300 hover:font-semibold hover:outline-2 whitespace-nowrap">
                                         {key}</span>)
                                     }
                                 </div>
