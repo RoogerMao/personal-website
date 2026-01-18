@@ -6,8 +6,8 @@ end_month:
 end_year: "present"
 link: "https://www.fullstackatbrown.com/"
 logo: "/artifacts/fullstack_logo.png"
-frameworks: [react, next.js, cosmicJS]
-languages: [javascript, typscript]
+frameworks: [React, Netxt.js, CosmicJS]
+languages: [JavaScript, TypeScript]
 experience: true
 people: []
 ---

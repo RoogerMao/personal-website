@@ -6,8 +6,8 @@ end_month: "1"
 end_year: "2026"
 link:
 logo: "/artifacts/personal_website_logo.jpg"
-frameworks: [react, next.js, gray-matter]
-languages: [javascript, typescript, markdown]
+frameworks: [React, Next.js, gray-matter]
+languages: [JavaScript, TypeScript, Markdown]
 experience: false
 people: []
 ---

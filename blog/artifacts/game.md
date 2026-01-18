@@ -7,7 +7,7 @@ end_year: "2025"
 link:
 logo: "/artifacts/game_logo.jpg"
 frameworks: []
-languages: [reason/ocaml]
+languages: [ReasonML/OCaml]
 experience: false
 people: [[Tiger Li, https://www.linkedin.com/in/tiger-li1/]]
 ---

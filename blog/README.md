@@ -22,11 +22,19 @@
 
 # Current Information
 
-- write welcome note
-- set up domain for publish website
-- register nextjs website with brown domain 
-- Should make a component for displaying information about the notes I publish
-  to my vault once I have at least one note in my vault
+- Deploy and sync website with squarespace domain
+- Write a review note to post to website, writing myself useful summaries I can read about:
+  - Using gray-matter
+  - Overview of web architecture (What are domains, proxies, DNS, and web addresses? Basically, how does everything I did work?)
+  - Interesting CSS features
+    - `Hover`
+    - `Group-hover` and `Group`
+    - `Dark` and `Light`
+    - Advantages of using Next.js's `Link` and `Image`
+  - Important topics from Next.js's tutorial:
+    - Pre-rendering
+    - Static Content Generation
+- Project review in Obsidian
 
 # Misc. Ideas
 

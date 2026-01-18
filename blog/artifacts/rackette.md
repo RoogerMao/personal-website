@@ -7,7 +7,7 @@ end_year: "2025"
 link:
 logo: "/artifacts/rackette_logo.svg"
 frameworks: []
-languages: [reason/ocaml]
+languages: [ReasonML/OCaml]
 experience: false
 people: [[Eric Kim, https://www.linkedin.com/in/erckimm/]]
 ---
