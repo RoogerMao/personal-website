@@ -63,12 +63,13 @@ export default async function Page() {
           {`Recent notes from my Obsidian Publish.`}
         </p>
 
-        {articles.map((article) => 
+
+        {/* articles.map((article) => 
           <Article 
             key = {article.id}
             id = {article.id}
             data = {article.data}
-        />)}
+        />)*/ }
       </section>
     </div>
   )
