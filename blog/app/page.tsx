@@ -64,12 +64,12 @@ export default async function Page() {
         </p>
 
 
-        {/* articles.map((article) => 
+        {articles.map((article) => 
           <Article 
             key = {article.id}
             id = {article.id}
             data = {article.data}
-        />)*/ }
+        />)}
       </section>
     </div>
   )
