@@ -5,37 +5,6 @@ import { getAllArticlesData } from 'app/lib/articles'
 import fs from 'fs';
 import path from 'path';
 
-export async function getStaticProps() {
-  // Debug: see what Vercel sees
-  console.log('====== DEBUG INFO ======');
-  console.log('process.cwd():', process.cwd());
-  console.log('__dirname:', __dirname);
-  
-  // List root directory contents
-  try {
-    const rootContents = fs.readdirSync(process.cwd());
-    console.log('Root directory contents:', rootContents);
-  } catch (e) {
-    console.error('Cannot read root:', e);
-  }
-  
-  // Check if articles exists
-  const articlesPath = path.join(process.cwd(), 'articles');
-  console.log('Looking for articles at:', articlesPath);
-  console.log('Articles exists?:', fs.existsSync(articlesPath));
-  
-  // If it exists, show contents
-  if (fs.existsSync(articlesPath)) {
-    const articles = fs.readdirSync(articlesPath);
-    console.log('Articles found:', articles);
-  }
-  console.log('========================');
-  
-  // Your actual code here...
-  const articlesDirectory = path.join(process.cwd(), 'articles');
-  // ... rest of your code
-}
-
 export default async function Page() {
   // process all the markdown files containing the artifacts
   const { experiences, projects } = getAllArtifactsData();
