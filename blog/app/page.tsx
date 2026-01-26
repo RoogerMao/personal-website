@@ -2,8 +2,6 @@ import { Artifact } from 'app/components/artifact'
 import { Article } from 'app/components/article'
 import { getAllArtifactsData } from 'app/lib/artifacts'
 import { getAllArticlesData } from 'app/lib/articles' 
-import fs from 'fs';
-import path from 'path';
 
 export default async function Page() {
   // process all the markdown files containing the artifacts
@@ -24,7 +22,7 @@ export default async function Page() {
           </p>
         </div>
 
-        <p className="transition-all mb-4 hover:text-orange-500 dark:hover:text-orange-400 hover:shadow hover:shadow-orange-500 dark:hover:shadow-none rounded">
+        <p className="transition-all mb-4 hover:text-orange-500 dark:hover:text-orange-400 rounded">
           {`BAIST Spring '26 Technical Reading Program Director.`}
         </p>
       </section>
@@ -61,7 +59,7 @@ export default async function Page() {
         <h1 className="text-2xl mb-1 font-semibold tracking-tighter">
             Vault 
         </h1>
-        <p className="transition-all mb-4 hover:text-orange-500 dark:hover:text-orange-400 hover:shadow hover:shadow-orange-500 dark:hover:shadow-none rounded">
+        <p className="transition-all mb-4 hover:text-orange-500 dark:hover:text-orange-400 rounded">
           {`Recent notes from my Obsidian Publish.`}
         </p>
 

@@ -1,3 +1,5 @@
+import { ExperienceLink } from "./link";
+
 type ArticleProps = {
     key: any 
     id: string; 
@@ -12,16 +14,20 @@ export function Article(props: ArticleProps) {
 
 
     return(
-        <div className="flex flex-row p-2 shadow-none hover:shadow dark:hover:shadow-none hover:shadow-orange-500 rounded inset-ring-0 dark:hover:inset-ring-1 dark:hover:inset-ring-orange-400 group">
-            <p className="italic text-gray-600 dark:text-gray-300 pr-2 text-nowrap group-hover:text-orange-500 dark:group-hover:text-orange-400">
-                {months[props.data.month - 1] + " " +
-                props.data.day + suffix(props.data.day) + ", " 
-                + props.data.year}
-            </p>
-            <a href = {props.data.link} target = "_blank"
-            className="transition-all hover:text-orange-500 dark:hover:text-orange-400">
-                {props.data.title}
-            </a>
+        <div className="flex flex-row justify-between p-2 shadow-none hover:shadow dark:hover:shadow-none hover:shadow-lg group">
+            <div className="flex flex-row">
+                <p className="text-gray-600 dark:text-gray-300 pr-2 text-nowrap">
+                    {months[props.data.month - 1] + " " +
+                    props.data.day + suffix(props.data.day) + ", " 
+                    + props.data.year}
+                </p>
+                <a href = {props.data.link} target = "_blank"
+                className="transition-all dark:group-hover:text-orange-400">
+                    {props.data.title}
+                </a>
+            </div>
+
+            <ExperienceLink url={props.data.link} />
         </div>
     )
 }

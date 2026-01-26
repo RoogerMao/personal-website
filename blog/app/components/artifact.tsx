@@ -18,7 +18,7 @@ export function Artifact({ id, content, data }: ArtifactProps) {
     ]; 
 
     return (
-        <div className="transition-text hover:shadow hover:shadow-orange-500 dark:hover:shadow-none dark:inset-ring-0 dark:hover:inset-ring-2 dark:hover:inset-ring-orange-400/50 p-2 cursor-pointer my-2 rounded group"
+        <div className="transition-text hover:shadow-lg dark:hover:shadow-none p-2 cursor-pointer my-2 rounded group"
         onClick={() => setIsExpanded(!isExpanded)}>
             <div className="flex justify-between w-100">
                 <div className="flex items-start w-full">
@@ -31,7 +31,7 @@ export function Artifact({ id, content, data }: ArtifactProps) {
                     {/* Main Body */}
                     <div className="grow min-w-0">
                         {/* Title, Date */}
-                        <h2 className = "text-xl group-hover:text-orange-500 dark:group-hover:text-orange-400">{data.title}
+                        <h2 className = "text-xl dark:group-hover:text-orange-400">{data.title}
                             <span className = "pl-2 italic text-base">
                                 {months[parseInt(data.start_month) - 1]} {data.start_year} – 
                                 {" "}
@@ -70,7 +70,7 @@ export function Artifact({ id, content, data }: ArtifactProps) {
                                     {
                                         data.frameworks.map((key: string) => 
                                         <span key={key}
-                                        className="transition-shadow inline-flex text-sm items-center outline-1 outline-orange-500 dark:outline-orange-400 w-fit px-2 rounded-full text-orange-500 dark:text-orange-400 hover:font-semibold hover:outline-2 whitespace-nowrap">
+                                        className="inline-flex text-sm items-center outline-1 outline-orange-500 dark:outline-orange-400 w-fit px-2 rounded-full text-orange-500 dark:text-orange-400 whitespace-nowrap">
                                         {key}</span>)
                                     }
 
@@ -78,7 +78,7 @@ export function Artifact({ id, content, data }: ArtifactProps) {
                                         data.languages.map((key: string) => 
                                         <span 
                                         key = {key}
-                                        className="transition-shadow inline-flex items-center text-sm outline-1 outline-gray-600 dark:outline-gray-300 w-fit px-2 rounded-full text-gray-600 dark:text-gray-300 hover:font-semibold hover:outline-2 whitespace-nowrap">
+                                        className="transition-shadow inline-flex items-center text-sm outline-1 outline-gray-600 dark:outline-gray-300 w-fit px-2 rounded-full text-gray-600 dark:text-gray-300 whitespace-nowrap">
                                         {key}</span>)
                                     }
                                 </div>
