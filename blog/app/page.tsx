@@ -2,6 +2,11 @@ import { Artifact } from 'app/components/artifact'
 import { Article } from 'app/components/article'
 import { getAllArtifactsData } from 'app/lib/artifacts'
 import { getAllArticlesData } from 'app/lib/articles' 
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Roger Mao',
+}
 
 export default async function Page() {
   // process all the markdown files containing the artifacts

@@ -16,15 +16,14 @@ export function Article(props: ArticleProps) {
     return(
         <div className="flex flex-row justify-between p-2 shadow-none hover:shadow dark:hover:shadow-none hover:shadow-lg group">
             <div className="flex flex-row">
-                <p className="text-gray-600 dark:text-gray-300 pr-2 text-nowrap">
+                <p className="pr-2 text-nowrap">
                     {months[props.data.month - 1] + " " +
                     props.data.day + suffix(props.data.day) + ", " 
                     + props.data.year}
                 </p>
-                <a href = {props.data.link} target = "_blank"
-                className="transition-all dark:group-hover:text-orange-400">
+                <p className="transition-all dark:group-hover:text-orange-400">
                     {props.data.title}
-                </a>
+                </p>
             </div>
 
             <ExperienceLink url={props.data.link} />
