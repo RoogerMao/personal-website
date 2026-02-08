@@ -18,7 +18,7 @@ const email = {
 
 const resume = {
     name: "Resume",
-    link: "/january26_resume.pdf", 
+    link: "/resume.pdf", 
     icon: resumeIcon
 }
 
