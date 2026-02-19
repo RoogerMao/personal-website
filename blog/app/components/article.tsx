@@ -7,22 +7,22 @@ type ArticleProps = {
 }; 
 
 export function Article(props: ArticleProps) {
-    const months = ["January", "Febuary", "March", "April", "May", "June", "July", 
-        "August", "September", "October", "November", "December"
+    const months = ["Jan.", "Feb.", "March", "April", "May", "June", "July", 
+        "Aug.", "Sept.", "Oct.", "Nov.", "Dec."
     ]; 
 
 
 
     return(
         <div className="flex flex-row justify-between p-2 shadow-none hover:shadow dark:hover:shadow-none hover:shadow-lg group">
-            <div className="flex flex-row">
-                <p className="pr-2 text-nowrap">
+            <div className="transition-text flex flex-row dark:group-hover:text-orange-400">
+                <p>
+                    {props.data.title}
+                </p>
+                <p className="italic pl-2 text-nowrap">
                     {months[props.data.month - 1] + " " +
                     props.data.day + suffix(props.data.day) + ", " 
                     + props.data.year}
-                </p>
-                <p className="transition-all dark:group-hover:text-orange-400">
-                    {props.data.title}
                 </p>
             </div>
 
